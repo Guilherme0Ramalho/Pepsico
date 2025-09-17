@@ -6,10 +6,10 @@ const GuardiansSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const guardianImages = [
-    './src/asses/guardião-segurança.png',
-    './src/asses/guardião-gente.png',
-    './src/asses/guardião-desempenho.png',
-    './src/asses/guardião-qualidade.png',
+    '/assets/guardiao-seguranca.png',
+    '/assets/guardiao-gente.png',
+    '/assets/guardiao-desempenho.png',
+    '/assets/guardiao-qualidade.png',
   ];
 
   useEffect(() => {

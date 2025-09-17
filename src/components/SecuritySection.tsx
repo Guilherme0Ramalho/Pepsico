@@ -6,9 +6,9 @@ const SecuritySection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const securityImages = [
-    './src/asses/luvas.png',
-    './src/asses/bota.png',
-    './src/asses/auriculR.png',
+    '/assets/luvas.png',
+    '/assets/bota.png',
+    '/assets/auriculR.png',
   ];
 
   useEffect(() => {
