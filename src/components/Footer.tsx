@@ -1,12 +1,12 @@
 import React from 'react';
-import { Youtube, Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Youtube, Facebook, Instagram,  Mail, Phone, MapPin, Twitter } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:text-red-400' },
-    { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:text-blue-400' },
-    { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:text-pink-400' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-500' }
+    { icon: Youtube, href: 'https://www.youtube.com/@PepsiCoBrasil', label: 'YouTube', color: 'hover:text-red-400' },
+    { icon: Facebook, href: '#', label: 'https://www.facebook.com/PepsiCoBrasil', color: 'hover:text-blue-400' },
+    { icon: Instagram, href: '#', label: 'https://www.instagram.com/pepsico_br/', color: 'hover:text-pink-400' },
+    { icon: Twitter, href: '#', label: 'https://x.com/pepsicobrasil', color: 'hover:text-blue-500' }
   ];
 
   return (
@@ -76,22 +76,6 @@ const Footer: React.FC = () => {
                   <p className="text-white/60 text-sm">contato@pepsico.com.br</p>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* Quick links */}
-          <div className="space-y-6">
-            <h3 className="text-xl font-bold text-white mb-6">Links Rápidos</h3>
-            <div className="space-y-3">
-              {['Segurança', 'Guardiões', 'Integração', 'Carreiras', 'Sustentabilidade'].map((link) => (
-                <a
-                  key={link}
-                  href={`#${link.toLowerCase()}`}
-                  className="block text-white/70 hover:text-teal-400 transition-colors duration-300 hover:translate-x-2 transform"
-                >
-                  {link}
-                </a>
-              ))}
             </div>
           </div>
         </div>

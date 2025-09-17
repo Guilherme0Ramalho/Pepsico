@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
           <button className="bg-gradient-to-r from-teal-500 to-blue-600 hover:from-teal-600 hover:to-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-            Conheça Nossa História
+            <a href="https://www.pepsico.com.br/">Conheça Nossa História</a>
           </button>
         </div>
       </div>

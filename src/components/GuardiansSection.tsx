@@ -6,9 +6,10 @@ const GuardiansSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const guardianImages = [
-    'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/3184429/pexels-photo-3184429.jpeg?auto=compress&cs=tinysrgb&w=800'
+    './src/asses/guardião-segurança.png',
+    './src/asses/guardião-gente.png',
+    './src/asses/guardião-desempenho.png',
+    './src/asses/guardião-qualidade.png',
   ];
 
   useEffect(() => {
@@ -76,6 +77,24 @@ const GuardiansSection: React.FC = () => {
                   promovendo uma cultura de inovação, colaboração e crescimento contínuo.
                 </p>
               </div>
+              <div className="bg-gradient-to-r from-teal-500/20 to-blue-500/20 backdrop-blur-sm rounded-2xl p-8 border border-teal-400/20">
+                <h3 className="text-2xl font-bold text-white mb-4">Guardiões</h3>
+                <p className="text-white/80 leading-relaxed">
+                ° Segurança - Os guardiões de segurança são reconhecidos pela touca vermelha. Eles fazem a ligação entre os colaboradores e o time responsavél por cuidar da segurança da empresa.
+                </p>
+                <br />
+                  <p className="text-white/80 leading-relaxed">
+                ° Qualidade - Os guardiões de Qualidade são reconhecidos pela touca verde. Eles fazem a ligação entre os colaboradores e o time responsavél por cuidar da qualidade dos produtos.
+                </p>
+                <br />
+                  <p className="text-white/80 leading-relaxed">
+                ° Gente - Os guardiões de Gente são reconhecidos pela touca amarela. Eles fazem a ligação entre os colaboradores e o time responsavél pela gestão de RH.
+                </p>
+                <br />
+                  <p className="text-white/80 leading-relaxed">
+                ° Desempenho - Os guardiões de Desempenho são reconhecidos pela touca azul. Eles são responsavéis por cuidar do desempenho do seu setor.
+                </p>
+              </div>
             </div>
 
             {/* Image carousel */}
@@ -87,6 +106,7 @@ const GuardiansSection: React.FC = () => {
                     alt={`Guardião ${currentSlide + 1}`}
                     className="w-full h-full object-cover transition-all duration-700 transform hover:scale-105"
                   />
+                  
                   <div className="absolute inset-0 bg-gradient-to-t from-teal-900/50 to-transparent"></div>
                 </div>
 
