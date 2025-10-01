@@ -5,10 +5,12 @@ const SecuritySection: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
 
+
   const securityImages = [
-    '/assets/luvas.png',
-    '/assets/bota.png',
+    '/assets/luva1.png',
+    '/assets/bota1.png',
     '/assets/auriculR.png',
+      '/assets/oculos1.png',
   ];
 
   useEffect(() => {

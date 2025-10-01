@@ -4,9 +4,9 @@ import { Youtube, Facebook, Instagram,  Mail, Phone, MapPin, Twitter } from 'luc
 const Footer: React.FC = () => {
   const socialLinks = [
     { icon: Youtube, href: 'https://www.youtube.com/@PepsiCoBrasil', label: 'YouTube', color: 'hover:text-red-400' },
-    { icon: Facebook, href: '#', label: 'https://www.facebook.com/PepsiCoBrasil', color: 'hover:text-blue-400' },
-    { icon: Instagram, href: '#', label: 'https://www.instagram.com/pepsico_br/', color: 'hover:text-pink-400' },
-    { icon: Twitter, href: '#', label: 'https://x.com/pepsicobrasil', color: 'hover:text-blue-500' }
+    { icon: Facebook, href: 'https://www.facebook.com/PepsiCoBrasil', label: 'Facebook', color: 'hover:text-blue-400' },
+    { icon: Instagram, href: 'https://www.instagram.com/pepsico_br/', label: 'Instagram', color: 'hover:text-pink-400' },
+    { icon: Twitter, href: 'https://x.com/pepsicobrasil', label: 'Twitter', color: 'hover:text-blue-500' }
   ];
 
   return (
